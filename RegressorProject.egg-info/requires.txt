@@ -1,5 +1,5 @@
 numpy
 pandas
 Flask
-seaborn
 scikit-learn
+seaborn
