@@ -60,9 +60,11 @@ class DataTransformation:
             ('cat_pipeline',cat_pipeline,categorical_cols)
             ])
             
-            return preprocessor
-
+            
             logging.info('Pipeline Completed')
+
+
+            return preprocessor # this will return pickel file.
 
         except Exception as e:
             logging.info("Error in Data Trnasformation")
@@ -97,8 +99,8 @@ class DataTransformation:
 
             logging.info("Applying preprocessing object on training and testing datasets.")
             
-
-            train_arr = np.c_[input_feature_train_arr, np.array(target_feature_train_df)]
+            # trying to store the dataset into numpy array(why ? as this is very fast) and np.c_ for concatination
+            train_arr = np.c_[input_feature_train_arr, np.array(target_feature_train_df)]   
             test_arr = np.c_[input_feature_test_arr, np.array(target_feature_test_df)]
 
             save_object(

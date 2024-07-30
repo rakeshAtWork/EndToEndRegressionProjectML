@@ -56,7 +56,7 @@ class DataIngestion:
 # if __name__ == "__main__":
 #     obj = DataIngestion()
 #     train_data,test_data = obj.initiate_data_ingestion()
-
+# added a code in the working branch now i will just merge this to the main branch.
 
 # This main code is just to test the current class method and its behaviour.
 
