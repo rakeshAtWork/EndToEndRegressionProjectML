@@ -28,7 +28,7 @@ class DataIngestion:
         logging.info('Data Ingestion methods Starts')
         try:
          
-            df=pd.read_csv(os.path.join('../Notebook/Data','gemstone.csv'))
+            df=pd.read_csv(os.path.join('Notebook/Data','gemstone.csv'))
             logging.info('Dataset read as pandas Dataframe')
 
             os.makedirs(os.path.dirname(self.ingestion_config.raw_data_path),exist_ok=True)
@@ -56,7 +56,11 @@ class DataIngestion:
 # if __name__ == "__main__":
 #     obj = DataIngestion()
 #     train_data,test_data = obj.initiate_data_ingestion()
+#     data_transformation = DataTransformation() 
+#     train_array, test_array, _=data_transformation.initaite_data_transformation(train_data,test_data)
 # added a code in the working branch now i will just merge this to the main branch.
 
 # This main code is just to test the current class method and its behaviour.
+
+# This entire code will go to the model training file.
 
