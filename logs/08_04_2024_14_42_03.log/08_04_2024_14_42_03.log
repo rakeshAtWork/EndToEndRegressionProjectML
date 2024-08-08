@@ -1,0 +1,4 @@
+[ 2024-08-04 14:42:13,648 ] 28 root - INFO - Data Ingestion methods Starts
+[ 2024-08-04 14:42:13,869 ] 32 root - INFO - Dataset read as pandas Dataframe
+[ 2024-08-04 14:42:14,839 ] 36 root - INFO - Train test split
+[ 2024-08-04 14:42:15,652 ] 51 root - INFO - Exception occured at Data Ingestion stage

@@ -29,6 +29,7 @@ class PredictPipeline:
             raise CustomException(e,sys)
         
 class CustomData:
+    # just defing one constructor with some instance variable.
     def __init__(self,
                  carat:float,
                  depth:float,
