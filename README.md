@@ -17,3 +17,9 @@ conda create -p venv python == 3.8
 ```
 pip install -r requirement.txt
 ```
+
+
+```
+Now we will start learning another algorithm for the Machine Learning that is Logistic Regression.
+
+```
